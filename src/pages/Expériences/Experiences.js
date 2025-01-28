@@ -3,7 +3,7 @@ import expArray from './exp-array';
 
 export default function Experience() {
   return (
-    <div className="flex flex-col items-center px-4">
+    <div id='experiences' className="flex flex-col items-center px-4">
       <h1 className="text-3xl sm:text-4xl font-semibold mb-6 sm:mb-10 text-center">
         Expériences
       </h1>

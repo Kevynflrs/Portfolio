@@ -5,11 +5,10 @@ export default function Navbar() {
 
   const navItems = [
     { label: 'Profil', href: '#preview' },
-    { label: 'Tableau de synthèse', href: '#tableau' },
     { label: 'Compétences', href: '#competences' },
     { label: 'Expériences', href: '#experiences' },
     { label: 'Veille', href: '#veille' },
-    { label: 'Projets', href: '#projets' },
+    // { label: 'Projets', href: '#projets' },
     { label: 'Contact', href: '#footer' }
   ];
 
@@ -30,11 +29,11 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center space-x-4">
-          <img 
+          {/* <img 
             src={`${process.env.PUBLIC_URL}/moon.png`} 
             alt="toggle to dark theme" 
             className="hidden md:block w-8 h-8 md:w-8 md:h-8 cursor-pointer" 
-          />
+          /> */}
           <button 
             onClick={() => setIsOpen(!isOpen)} 
             className="md:hidden text-[#081C15] text-2xl"
@@ -56,13 +55,13 @@ export default function Navbar() {
               {item.label}
             </a>
           ))}
-          <div className="flex justify-center py-2 md:hidden">
+          {/* <div className="flex justify-center py-2 md:hidden">
             <img 
               src={`${process.env.PUBLIC_URL}/moon.png`} 
               alt="toggle to dark theme" 
               className="w-8 h-8 md:w-8 md:h-8 cursor-pointer" 
             />
-          </div>
+          </div> */}
         </div>
       )}
     </div>
