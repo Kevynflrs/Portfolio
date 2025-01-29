@@ -6,8 +6,8 @@ export default function Navbar() {
   const navItems = [
     { label: 'Profil', href: '#preview' },
     { label: 'Compétences', href: '#competences' },
+    { label: 'Projets', href: '#projets' },
     { label: 'Expériences', href: '#experiences' },
-    // { label: 'Projets', href: '#projets' },
     { label: 'Contact', href: '#footer' }
   ];
 

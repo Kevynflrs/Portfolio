@@ -4,7 +4,7 @@ import projets from "./projets-array";
 
 export default function Projets() {
   return (
-    <section className="px-4 lg:px-8">
+    <section id="projets" className="px-4 lg:px-8">
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-normal mb-6 lg:mb-12 text-center">
         Projets
       </h1>
@@ -25,9 +25,10 @@ export default function Projets() {
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#081c15] mb-4">
                 {projet.title}
               </h2>
-              <p className="text-base md:text-lg lg:text-xl text-[#081c15] text-center">
-                {projet.description}
-              </p>
+              <p
+                className="text-base md:text-lg lg:text-xl text-[#081c15] text-center"
+                dangerouslySetInnerHTML={{ __html: projet.description }}
+              />
             </div>
           </div>
         ))}
