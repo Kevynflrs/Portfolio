@@ -19,7 +19,7 @@ export default function SkillSection({ title, icon, skills }) {
             {title}
           </h2>
           <img 
-            src={isOpen ? `${process.env.PUBLIC_URL}/up.png` : `${process.env.PUBLIC_URL}/down.png`} 
+            src={isOpen ? `${process.env.PUBLIC_URL}/icon/up.png` : `${process.env.PUBLIC_URL}/icon/down.png`} 
             alt="toggle" 
             className="w-6 h-6 ml-36 lg:ml-48 transition-transform duration-300"
             style={{ transform: isOpen ? 'rotate(0deg)' : 'rotate(180deg)' }}

@@ -26,12 +26,12 @@ export default function Competences() {
         <div className="flex flex-col lg:flex-row w-full max-w-4xl justify-center space-y-6 lg:space-y-0 lg:space-x-6">
           <SkillSection 
             title="Frontend" 
-            icon={`${process.env.PUBLIC_URL}/code.png`} 
+            icon={`${process.env.PUBLIC_URL}/icon/code.png`} 
             skills={frontendSkills} 
           />
           <SkillSection 
             title="Backend" 
-            icon={`${process.env.PUBLIC_URL}/server.png`} 
+            icon={`${process.env.PUBLIC_URL}/icon/server.png`} 
             skills={backendSkills} 
           />
         </div>

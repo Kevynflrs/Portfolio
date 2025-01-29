@@ -12,7 +12,7 @@ const expArray = [
           <li>Favoris : Regroupe les communautés favorites de l’utilisateur.</li>
         </ul>
       `,
-      image: "/Wive.png"
+      image: "/Pro/Wive.png"
     },
     {
       name: "Arche-Mc2",
@@ -27,7 +27,7 @@ const expArray = [
           <li>Traitement de plusieurs tickets pour la création de nouvelles fonctionnalités.</li>
         </ul>
       `,
-      image: "/ArcheMC2.png"
+      image: "/Pro/ArcheMC2.png"
     }
   ];
   

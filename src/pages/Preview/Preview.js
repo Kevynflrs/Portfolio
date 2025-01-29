@@ -19,7 +19,7 @@ export default function Preview() {
                         <div className="mt-4 md:mt-6">
                             <ButtonComponent 
                                 label="Contactez Moi" 
-                                icon={`${process.env.PUBLIC_URL}/send.png`} 
+                                icon={`${process.env.PUBLIC_URL}/icon/send.png`} 
                                 iconName="Envoyer"
                                 actionType="navigate" 
                                 actionValue="#footer" 
@@ -29,7 +29,7 @@ export default function Preview() {
                     <div className="flex justify-center items-center">
                         <img
                             className="rounded-full w-48 h-48 md:w-80 md:h-80 object-cover border-4 border-[#081C15]"
-                            src={`${process.env.PUBLIC_URL}/photoCV.JPG`} 
+                            src={`${process.env.PUBLIC_URL}/Pro/photoCV.JPG`} 
                             alt="Flores da Costa Kevyn"
                         />
                     </div>
