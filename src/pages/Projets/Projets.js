@@ -4,7 +4,7 @@ import projets from "./projets-array";
 
 export default function Projets() {
   return (
-    <div className="relative">
+    <section>
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-normal mb-6 lg:mb-12 text-center">
         Projets
       </h1>
@@ -32,6 +32,6 @@ export default function Projets() {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }

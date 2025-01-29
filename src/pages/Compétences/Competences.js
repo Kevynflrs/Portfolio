@@ -18,7 +18,7 @@ export default function Competences() {
     ];
   
     return (
-      <div id="competences" className="flex flex-col items-center justify-center px-4 sm:px-6">
+      <section id="competences" className="flex flex-col items-center justify-center px-4 sm:px-6">
         <h1 className="text-3xl sm:text-4xl font-semibold mb-6 sm:mb-10 text-center">
           Compétences
         </h1>
@@ -35,6 +35,6 @@ export default function Competences() {
             skills={backendSkills} 
           />
         </div>
-      </div>
+      </section>
     );
 }

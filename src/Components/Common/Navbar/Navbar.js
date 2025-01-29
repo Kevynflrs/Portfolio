@@ -12,7 +12,7 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="fixed w-full top-0 z-50">
+    <section className="fixed w-full top-0 z-50">
       <div className="h-24 flex items-center justify-between px-4 md:px-16 bg-white shadow-md">
         <a href='#preview' className="text-2xl font-bold">Mon Portfolio</a>
         <div className="hidden md:flex space-x-8">
@@ -63,6 +63,6 @@ export default function Navbar() {
           </div> */}
         </div>
       )}
-    </div>
+    </section>
   );
 }

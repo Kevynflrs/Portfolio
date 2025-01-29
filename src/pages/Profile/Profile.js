@@ -13,7 +13,7 @@ export default function Profile() {
     }, []);
 
     return (
-      <div id='#preview' className="container mx-auto p-4 lg:p-10 mt-24 md:mt-0">
+      <section id='#preview' className="container mx-auto p-4 lg:p-10 mt-24 md:mt-0">
         <div className="flex flex-col max-w-[1280px] mx-auto">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-normal mb-6 lg:mb-12 text-center">
             Profil
@@ -38,6 +38,6 @@ export default function Profile() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     );
 }

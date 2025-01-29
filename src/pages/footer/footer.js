@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <div id='footer' className="w-full border-t border-gray-300 py-8">
+    <section id='footer' className="w-full border-t border-gray-300 py-8">
       <div className="flex flex-col lg:flex-row justify-between mx-6 items-center">
         <div className="flex flex-col items-start space-y-4">
           <div className="flex items-center space-x-2">
@@ -51,6 +51,6 @@ export default function Footer() {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
