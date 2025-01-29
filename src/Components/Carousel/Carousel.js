@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 export default function Carousel({ images }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -12,23 +13,23 @@ export default function Carousel({ images }) {
   };
 
   return (
-    <div className="relative w-full h-[438px] overflow-hidden flex items-center justify-center">
+    <div className="relative w-full h-[600px] overflow-hidden flex items-center justify-center">
       <button
         className="absolute left-4 z-10 bg-white p-2 rounded-full shadow-md"
         onClick={handlePrev}
       >
-        &#8592;
+        <FaChevronLeft size={24} />
       </button>
       <img
         src={`${process.env.PUBLIC_URL}${images[currentIndex]}`}
         alt="carousel-item"
-        className="w-full h-full object-cover rounded-[28px]"
+        className="w-full h-full object-cover object-center rounded-[28px]"
       />
       <button
         className="absolute right-4 z-10 bg-white p-2 rounded-full shadow-md"
         onClick={handleNext}
       >
-        &#8594;
+        <FaChevronRight size={24} />
       </button>
     </div>
   );
