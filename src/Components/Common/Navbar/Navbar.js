@@ -7,7 +7,6 @@ export default function Navbar() {
     { label: 'Profil', href: '#preview' },
     { label: 'Compétences', href: '#competences' },
     { label: 'Expériences', href: '#experiences' },
-    { label: 'Veille', href: '#veille' },
     // { label: 'Projets', href: '#projets' },
     { label: 'Contact', href: '#footer' }
   ];
