@@ -1,17 +1,8 @@
 import React from 'react';
 import ButtonComponent from '../../Components/Common/Button/ButtonComponent';
 import ProfileText from './ProfileText';
-import { useEffect, useState } from 'react';
 
 export default function Profile() {
-  const [isMobile, setIsMobile] = useState(window.matchMedia("(max-width: 768px)").matches);
-
-  useEffect(() => {
-    const handleResize = () => setIsMobile(window.matchMedia("(max-width: 768px)").matches);
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
   return (
     <section id='#preview' className="container mx-auto p-4 lg:p-10 mt-24 md:mt-0">
       <div className="flex flex-col max-w-[1280px] mx-auto">
